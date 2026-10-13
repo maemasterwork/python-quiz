@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>پنل معلم 🐍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Vazirmatn:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .adm-grid{display:grid;gap:16px;margin-top:16px}
+    .stu h3{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+    .att{margin-top:10px}
+    table.t{width:100%;border-collapse:collapse;font-size:.88rem;margin-top:10px}
+    table.t th,table.t td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:right}
+    table.t th{color:var(--muted);font-weight:500}
+    .pill{padding:2px 10px;border-radius:99px;font-size:.78rem}
+    .pill.run{background:rgba(255,212,59,.16);color:var(--yellow)}
+    .pill.fin{background:rgba(61,220,151,.16);color:var(--green)}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  </style>
+</head>
+<body>
+  <div id="bg" aria-hidden="true"></div>
+  <main id="app"></main>
+  <script src="config.js"></script>
+  <script src="questions.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
